@@ -1,0 +1,18 @@
+class A{
+ public String doit(int x, int y){ 
+	 return "a"; 
+ }
+ public String doit(int... vals){ 
+	return "b";
+  } 
+} 
+
+Given: 
+A a = new A(); 
+26.System.out.println(a.doit(4, 5)); 
+
+What is the result? 
+   A.Line 26 prints "a" to System.out. 
+   B.Line 26 prints "b" to System.out. 
+   C.An exception is thrown at runtime. 
+   D.Compilation of class A will fail due to an error in line 6.

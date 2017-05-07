@@ -1,0 +1,19 @@
+Given:
+
+11. class X{public void foo(){System.out.print("X ");}}
+12.
+13. public class SubB extends X{
+14.     public void foo() throws RuntimeException{
+15.         super.foo();
+16.         if(true) throw new RuntimeException();
+17.         System.out.print("B ");
+18.     }
+19.     public static void main(String[] args){
+20.         new SubB().foo();
+21.     }
+22. }
+What is the result?
+	A. X, followed by an Exception. 
+	B. No output, and an Exception is thrown. 
+	C. Compilation fails due to an error on line 14. 
+	D. Compilation fails due to an error on line 16.

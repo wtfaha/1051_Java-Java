@@ -1,0 +1,13 @@
+Given: 
+1.  public class TestString1{ 
+2.      public static void main(String[] args){ 
+3.          String str = "420";
+4.          str += 42;
+5.          System.out.print(str); 
+6.      }
+7.  }
+What is the output?
+A. 42	
+B. 420	
+C. 462	
+D. 42042	

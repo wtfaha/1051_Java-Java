@@ -1,0 +1,17 @@
+Given:
+
+10.    class Nav {
+11.        public enum Direction {
+            NORTH, SOUTH, EAST, WEST
+        }
+12.    }
+
+13.    public class Sprite {
+14.        // insert code here
+15.    }
+
+Which code, inserted at line 14, allows the Sprite class to compile?
+	A. Nav.Direction d = Nav.Direction.NORTH;
+	B. Nav.Direction d = NORTH;
+	C. Direction d = Direction.NORTH;
+	D. Direction d = NORTH;

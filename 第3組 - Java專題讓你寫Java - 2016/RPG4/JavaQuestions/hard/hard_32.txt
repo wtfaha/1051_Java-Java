@@ -1,0 +1,22 @@
+Given:
+
+31. class Foo{
+32.     public int a = 3;
+33.     public void addFive(){ a += 5; System.out.print("f "); }
+34. }
+35. class Bar extends Foo{
+36.     public int a = 8;
+37.     public void addFive(){this.a += 5; System.out.print("b ");}
+38. }
+Invoked with:
+
+    Foo f = new Bar();
+    f.addFive();
+    System.out.println(f.a);
+
+What is the result?
+
+	A. b 3
+	B. b 8
+	C. b 13
+	D. f 3

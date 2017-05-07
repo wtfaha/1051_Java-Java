@@ -1,0 +1,17 @@
+Given: 
+1.  public class Spock{ 
+2.    public static void main(String[] args){ 
+3.      Long tail = 2000L; 
+4.      Long distance = 1999L; 
+5.      Long story = 1000L; 
+6.      if((tail>distance) ^ ((story*2)==tail)) 
+7.        System.out.print("1"); 
+8.      if((distance+1 != tail) ^ ((story*2)==distance)) 
+9.        System.out.print("2"); 
+10.    } 
+11.  } 
+What is the result?
+	A. 1	
+	B. 12	
+	C. No output is produced.
+	D.Compilation fails.

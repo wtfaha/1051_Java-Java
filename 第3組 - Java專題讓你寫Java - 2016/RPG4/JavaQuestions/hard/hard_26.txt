@@ -1,0 +1,24 @@
+Given:
+
+interface DeclareStuff {
+    public static final int EASY = 3;
+
+    void doStuff(int t);
+}
+
+public class TestDeclare implements DeclareStuff {
+    public static void main(String[] args) {
+        int x = 5;
+        new TestDeclare().doStuff(++x);
+    }
+
+    void doStuff(int s) {
+        s += EASY + ++s;
+        System.out.println("s " + s);
+    }
+}
+What is the result?
+A. s 14
+B. s 16
+C. s 10
+D. Compilation fails.

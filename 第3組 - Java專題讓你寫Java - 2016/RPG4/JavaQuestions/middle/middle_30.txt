@@ -1,0 +1,16 @@
+Given:
+
+33. try{
+34.    //some code here
+35. }catch(NullPointerException el){
+36.     System.out.print("a");
+37. }catch(Exception e2){
+38.     System.out.print("b");
+39. }finally{
+40.     System.out.print("c");
+41. }
+If some sort of exception is thrown at line 34, which output is possible?
+A. a
+B. b
+C. c
+D. ac

@@ -1,0 +1,21 @@
+Given: 
+public class Hello{ 
+	String title;
+	int value;
+	public Hello(){
+	  14. title += " World"; 
+	} 
+	public Hello(int value){ 
+  		this.value = value; 
+  		title = "Hello"; 
+  		Hello(); 
+	} 
+} 
+Hello c = new Hello(5); 
+System.out.print(c.title); 
+
+What is the result? 
+	A. Hello 
+	B. Hello World 
+	C. Compilation fails. 
+	D. Hello World 5 

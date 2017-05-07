@@ -1,0 +1,17 @@
+Given:
+
+1. public class Donkey2{
+2.     public static void main(String[] args){
+3.         boolean assertsOn = true;
+4.         assert(assertsOn): assertsOn = true;
+5.         if(assertsOn){
+6.             System.out.println("assert is on");
+7.         }
+8.     }
+9. }
+
+If class Donkey2 is invoked twice, the first time without assertions enabled, and the second time with assertions enabled, what are the results?
+A. no output
+B. no output assert is on
+C. assert is on
+D. no output

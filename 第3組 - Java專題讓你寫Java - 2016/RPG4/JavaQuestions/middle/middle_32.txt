@@ -1,0 +1,17 @@
+Given:
+1. public class GC{
+2.     private Object o;
+3.     private void doSomethingElse(Object obj){o = obj;}
+4.     public void doSomething(){
+5.         Object o = new Object();
+6.         doSomethingElse(o);
+7.         o = new Object();
+8.         doSomethingElse(null);
+9.         o = null;
+10.     }
+11. }
+When the doSomething method is called, after which line does the Object created in line 5 become available for garbage collection?
+A. Line 6
+B. Line 7
+C. Line 8
+D. Line 9

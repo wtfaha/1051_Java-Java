@@ -1,0 +1,18 @@
+1. class Super{
+2.     private int a;
+3.     protected Super(int a){this.a = a;}
+4. }
+...
+11. class Sub extends Super{
+12.     public Sub(int a){super(a);}
+13.     public Sub(){this.a = 5;}
+14. }
+Which two, independently, will allow Sub to compile? (Choose two.)
+A. Change line 2 to:
+　public int a;
+B. Change line 2 to:
+　protected int a;
+C. Change line 13 to:
+　public Sub(){this(5);}
+D. Change line 13 to:
+　public Sub(){super(a);}

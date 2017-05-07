@@ -1,0 +1,18 @@
+Given:
+5. class Building{}
+6. public class Barn extends Building{
+7.     public static void main(String[] args){
+8.     Building build1 = new Building();
+9.     Barn barn1 = new Barn();
+10.     Barn barn2 = (Barn)build1;
+11.     Object obj1 = (Object)build1;
+12.     String str1 = (String)build1;
+13.     Building build2 = (Building)barn1;
+14.     }
+15. }
+
+Which is true?
+	A. if line 10 is removed, the compilation succeeds.
+	B. if line 11 is removed, the compilation succeeds.
+	C. if line 12 is removed, the compilation succeeds.
+	D. if line 13 is removed, the compilation succeeds.

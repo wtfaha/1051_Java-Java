@@ -1,0 +1,24 @@
+1. import java.io.*;
+2. public class Foo implements Serializable{
+3.     public int x, y;
+4.     public Foo(int x, int y){this.x = x; this.y = y;}
+5.
+6.     private void writeObject(ObjectOutputStream s)
+7.                             throws IOException{
+8.         s.writeInt(x); s.writeInt(y);
+9.     }
+10.
+11.     private void readObject(ObjectInputStream s)
+12.     throws IOException, ClassNotFoundException{
+13.
+14.         //insert code here
+15.
+16.     }
+17. }
+
+Which code, inserted at line 14, will allow this class to correctly serialize and deserialize?
+
+A. s.defaultReadObject();
+B. this = s.defaultReadObject(),
+C. y = s.readInt(); x = s.readInt();
+D. x = s.readInt(); y = s.readInt();

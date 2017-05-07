@@ -1,0 +1,23 @@
+Assuming that the serializeBanana() and the deserializeBanana() methods will correctly use Java serialization 
+and given:
+
+13. import java.io.*;
+14. class Food implements Serializable{int good = 3;}
+15. class Fruit extends Food{int juice = 5;}
+16. public class Banana extends Fruit{
+17.     int yellow = 4;
+18.     public static void main(String[] args) {
+19.         Banana b = new Banana(); Banana b2 = new Banana();
+20.         b.serializeBanana(b); //assume correct serialization
+21.         b2 = b.deserializeBanana(); //assume correct
+22.         System.out.println("restore " + b2.yellow + b2.juice + b2.good);
+24.     }
+25. //more Banana methods go here
+50. }
+
+What is the result?
+
+A. restore 400 
+B. restore 403 
+C. restore 453 
+D. Compilation fails. 

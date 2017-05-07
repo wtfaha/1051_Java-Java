@@ -1,0 +1,20 @@
+Given:
+
+5. import java.io.*;
+6. public class Talk{
+7.     public static void main(String[] args){
+8.         Console c = new Console();
+9.         String pw;
+10.         System.out.print("password: ");
+11.         pw = c.readLine();
+12.         System.out.println("got" + pw);
+13.     }
+14. }
+If the user types the password aiko when prompted, what is the result?
+A. password: 
+　got
+B. password: 
+　got aiko
+C. password: aiko 
+　got aiko
+D. Compilation fails due to an error on line 8.

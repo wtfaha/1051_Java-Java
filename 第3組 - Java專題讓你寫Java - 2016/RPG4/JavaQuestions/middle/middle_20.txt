@@ -1,0 +1,29 @@
+Given:
+
+interface Jumper {
+    public void jump();
+}
+...
+class Animal {
+}
+...
+class Dog extends Animal {
+    Tail tail;
+}
+...
+class Beagle extends Dog implements Jumper {
+    public void jump() {
+    }
+}
+...
+class Cat implements Jumper {
+    public void jump() {
+    }
+}
+
+Which is wrong? 
+
+A. Cat is-a Animal
+B. Cat is-a Jumper
+C. Dog is-a Animal
+D. Beagle has-a Tail

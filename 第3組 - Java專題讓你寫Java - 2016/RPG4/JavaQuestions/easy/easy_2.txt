@@ -1,0 +1,11 @@
+Given: 
+35.  String #name = "Jane Doe"; 
+36.  int $age = 24; 
+37.  Double _height = 123.5; 
+38.  double ~temp = 37.5; 
+
+Which  statement is true? 
+	A. Line 35 will not compile.	
+	B. Line 36 will not compile.	
+	C. Line 37 will not compile.	
+	D. Line 35~38 will not compile.

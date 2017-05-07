@@ -1,0 +1,16 @@
+class Mammal {
+}
+
+class Raccoon extends Mammal {
+    Mammal m = new Mammal();
+}
+
+class BabyRaccoon extends Mammal {
+}
+
+Which four statments is wrong?
+
+A. Raccoon is-a Mammal.
+B. BabyRaccoon is-a Mammal.
+C. BabyRaccoon has-a Mammal.
+D. BabyRaccoon is-a BabyRaccoon.

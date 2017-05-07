@@ -1,0 +1,23 @@
+Given:
+
+11. class Mud{
+12.     //insert code here
+13. System.out.println("hi");
+14. }
+15. }
+
+
+And the following five fragments:
+
+public static void main(String...a){
+public static void main(String.* a){
+public static void main(String... a){
+public static void main(String[]... a){
+public static void main(String...[] a){
+
+How many of the code fragments, inserted independently at line 12, compile?
+
+A. 0
+B. 1
+C. 2
+D. 3

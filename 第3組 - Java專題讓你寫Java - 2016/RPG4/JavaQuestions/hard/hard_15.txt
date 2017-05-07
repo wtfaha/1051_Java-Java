@@ -1,0 +1,21 @@
+Given a method that must ensure that its parameter is not null:
+
+11. public void someMethod(Object value){
+12. //check for null value
+...
+20. System.out.println(value.getClass());
+21. }
+
+What, inserted at line 12, is the appropriate way to handle a null value?
+
+A.    assert value == null;
+
+B.    assert value != null : "value is null";
+
+C.    if (value == null){
+        throw new AssertionException("value is null");
+    }
+
+D.    if (value == null){
+        throw new IllegalArgumentException("value is null");
+    }

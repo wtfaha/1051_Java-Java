@@ -1,0 +1,20 @@
+public class Test{
+12.     public enum Dogs {collie, harrier, shepherd},
+13.    public static void main(String[] args){
+14.         Dogs myDog = Dogs.shepherd;
+15.         switch(myDog){
+16.             case collie:
+17.                 System.out.print("collie ");
+18.             case default:
+19.                 System.out.print("retriever "),
+20.             case harrier:
+21.                 System.out.print("harrier ");
+22.         }
+23.     }
+24. }
+
+What is the result?
+	A. harrier
+	B. Compilation fails
+	C.An exception is thrown at runtime,
+	D. shepherd

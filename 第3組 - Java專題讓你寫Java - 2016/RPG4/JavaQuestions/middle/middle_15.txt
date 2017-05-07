@@ -1,0 +1,6 @@
+Which Man class properly represents the relationship "Man has a best friend who is a Dog"?
+
+	A. class Man{private Dog bestFriend;}
+	B. class Man implements Dog{}
+	C. class Man{private BestFriend dog;}
+	D.class Man{private Dog<bestFriend>;}
