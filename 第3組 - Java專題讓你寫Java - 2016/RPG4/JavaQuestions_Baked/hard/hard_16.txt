@@ -1,0 +1,38 @@
+Given:
+
+1. public class A{
+2.     public void method1(){
+3.         B b = new B();
+4.         b.method2();
+5.         //more code here
+6.     }
+7. }
+
+1. public class B{
+2.     public void method2(){
+3.         C c = new C();
+4.         c.method3();
+5.         //more code here
+6.     }
+7. }
+
+1. public class C{
+2.     public void method3(){
+3.         //more code here
+4.         }
+5. }
+
+And given:
+25. try{
+26.     A a = new A();
+27.     a.method1();
+28. }catch(Exception e){
+29.     System.out.print("an error occurred");
+30. }
+
+Which statement is true if a NullPointerException is thrown on line 3 of class C? 
+
+A. The application will crash. 
+B. The code on line 29 will be executed. 
+C. The code on line 5 of class A will execute. 
+D. The code on line 5 of class B will execute. 

@@ -1,0 +1,14 @@
+Given:
+
+1. public class LineUp{
+2.     public static void main(String[] args){
+3.         double d = 12.345;
+4.         //insert code here
+5.     }
+6. }
+
+Which code fragment, inserted at line 4, produces the output |12.345|?
+	A. System.out.printf("|%7.3f| \n", d);
+	B. System.out.printf("|%7f| \n", d); 
+	C. System.out.printf("|%3.7d| \n", d); 
+	D. System.out.printf("|%3.7f| \n", d);

@@ -1,0 +1,26 @@
+Given:
+
+10. interface Foo{}
+
+11. class Alpha implements Foo{}
+
+12. class Beta extends Alpha{}
+
+13. class Delta extends Beta{
+
+14.     public static void main(String[] args){
+
+15.     Beta x = new Beta();
+
+16.     //insert code here
+
+17.     }
+
+18. }
+
+Which code, inserted at line 16, will cause a java.lang.ClassCastException?
+
+A. Alpha a = x;
+B. Foo f = (Delta)x;
+C. Foo f = (Alpha)x;
+D. Beta b = (Beta)(Alpha)x;

@@ -1,0 +1,18 @@
+Given:
+
+11. class Converter{
+12.     public static void main(String[] args){
+13.         Integer i = args[0];
+14.         int j = 12;
+15.         System.out.println("It is " + (j==i) + " that j==i.");
+16.     }
+17. }
+
+What is the result when the programmer attempts to compile the code and run it with the command
+
+java Converter 12?
+
+	A. It is true that j==i.
+	B. Compilation fails because of an error in line 13
+	C. An exception is thrown at runtime.
+	D. It is false that j==i.

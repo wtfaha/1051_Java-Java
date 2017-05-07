@@ -1,0 +1,13 @@
+Given:
+2. public class Hi{
+3.     void m1(){}
+4.     protected void m2(){}
+5. }
+6. class Lois extends Hi{
+7.     //insert code here
+8. }
+Which four code fragments, inserted independently at line 7, will compile? (Choose four.)
+A. public void m1(){}
+B. void m2(){}
+C. protected void m1(){}
+D. pubic void m2(){}

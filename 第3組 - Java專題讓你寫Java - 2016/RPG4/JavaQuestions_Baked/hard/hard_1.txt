@@ -1,0 +1,19 @@
+Given: 
+1. public class Breaker{ 
+2. 	static String o = ""; 
+3. 	public static void main(String[] args){ 
+4. 	z: 
+5. 	  o = o + 2; 
+6. 	  for(int x=3; x<8; x++){
+7.  	  	if(x == 4) break; 
+8. 	  	if(x == 6) break z; 
+9. 	  	o = o + x; 
+10.	  } 
+11. 	System.out.println(o); 
+12. 	} 
+13. } 
+What is the result? 
+	A. 23 
+	B. 234 
+	C. 2345 
+	D. 23456

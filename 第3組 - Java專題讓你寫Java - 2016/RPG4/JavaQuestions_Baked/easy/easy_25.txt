@@ -1,0 +1,18 @@
+Given:
+import java.util.*;
+
+public class Quest {
+    public static void main(String[] args) {
+        String[] colors = { "blue", "red", "green", "yellow", "orange" };
+        Arrays.sort(colors);
+        int s2 = Arrays.binarySearch(colors, "orange");
+        int s3 = Arrays.binarySearch(colors, "violet");
+        System.out.print(s2 + "" + s3);
+    }
+}
+
+What is the result?
+	A. 2-1
+	B. 2-4
+	C. 2-5
+	D. 3-1	

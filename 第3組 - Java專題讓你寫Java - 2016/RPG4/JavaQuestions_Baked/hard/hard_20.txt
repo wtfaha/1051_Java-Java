@@ -1,0 +1,16 @@
+Given:
+
+10. interface Foo{int bar();}
+11. public class Sprite{
+12.     public int fubar(Foo foo){return foo.bar();}
+13.     public void testFoo(){
+14.         fubar(
+15.             //insert code here
+16.         );
+17.     }
+18. }
+Which code, inserted at line 15, allows the class Sprite to compile?
+A. Foo{public int bar(){return 1;}}
+B. new Foo{public int bar(){return 1;}}
+C. new Foo(){public int bar(){return 1;}}
+D. new class Foo{public int bar(){return 1;}}

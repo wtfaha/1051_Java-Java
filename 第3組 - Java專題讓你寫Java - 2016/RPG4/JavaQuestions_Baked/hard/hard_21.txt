@@ -1,0 +1,5 @@
+Which statement is true?
+	A. A class's finalize() method CANNOT be invoked explicitly.
+	B. super.finalize() is called implicitly by any overriding finalize() method.
+	C. The finalize() method for a given object is called no more than once by the garbage collector.
+	D. The order in which finalize() is called on two objects is based on the order in which the two objects became finalizable.

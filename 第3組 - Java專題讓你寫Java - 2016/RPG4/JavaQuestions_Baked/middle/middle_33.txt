@@ -1,0 +1,18 @@
+12. public class Test{
+13.     public enum Dogs{collie, harrier};
+14.     public static void main(String[] args){
+15.         Dogs myDog = Dogs.collie;
+16.         switch(myDog){
+17.             case collie:
+18.                 System.out.print("collie ");
+19.             case harrier:
+20.                 System.out.print("harrier ");
+21.         }
+22.     }
+23. }
+What is the result?
+A. collie
+B. harrier
+C. Compilation fails.
+D. collie harrier
+

@@ -1,0 +1,23 @@
+Given:
+15. public class Pass2{
+16.     public void static main(String[] args){
+17.         int x = 6;
+18.         Pass2 p = new Pass2();
+19.         p.doStuff(x);
+20.         System.out.print(" main x = " + x);
+21.     }
+22.
+23.     void doStuff(int x){
+24.         System.out.print(" doStuff x = " + x++);
+25.     }
+26. }
+And the command-line invocations:
+
+javac Pass2.java
+java Pass2 5
+
+What is the result?
+	A. Compilation fails.
+	B. An exception is thrown at runtime.
+	C. doStuff x = 6 main x = 6
+	D. doStuff x = 6 main x = 7

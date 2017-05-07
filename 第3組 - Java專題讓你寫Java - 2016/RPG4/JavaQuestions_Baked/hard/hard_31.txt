@@ -1,0 +1,12 @@
+Given the following six method names:
+addListener
+addMouseListener
+setMouseListener
+deleteMouseListener
+removeMouseListener
+registerMouseListener
+How many of these method names follow JavaBean Listener naming rules?
+	A. 1
+	B. 2
+	C. 3
+	D. 4

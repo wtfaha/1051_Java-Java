@@ -1,0 +1,5 @@
+Which four statements is wrong?
+A. Has-a relationships can be implemented using instance variables.
+B. Is-a relationships can be implemented using the extends keyword.
+C. Is-a relationships can be implemented using the implements keyword.
+D. The relationship between Movie and Actress is an example of an is-a relationship.

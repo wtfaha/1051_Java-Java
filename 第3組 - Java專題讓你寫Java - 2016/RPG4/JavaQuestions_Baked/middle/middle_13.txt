@@ -1,0 +1,15 @@
+Given:
+
+1. public class Blip{
+2.     protected int blipvert(int x){return 0;}
+3. }
+4. class Vert extends Blip{
+5.     //insert code here
+6. }
+
+Which five methods, inserted independently at line 5, won¡¦t compile? (Choose five.)
+
+A. pblic int blipvert(int x){return 0;}
+B. private int blipvert(int x){return 0;}
+C. private int blipvert(long x){return 0;}
+D. protected int blipvert(long x){return 0;}

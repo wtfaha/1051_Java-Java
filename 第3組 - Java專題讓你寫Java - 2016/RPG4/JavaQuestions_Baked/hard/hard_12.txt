@@ -1,0 +1,19 @@
+Given:
+11. public static void main(String[] args){
+12.     try{
+13.         args = null;
+14.         args[0] = "test";
+15.         System.out.println(args[0]);
+16.     }catch(Exception ex) {
+17.         System.out.println("Exception");
+18.     }catch(NullPointerException npe){
+19.         System.out.println("NullPointerException");
+20.     }
+21. }
+
+What is the result?
+
+A. test 
+B. Exception 
+C. Compilation fails. 
+D. NullPointerException

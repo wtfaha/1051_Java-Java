@@ -1,0 +1,10 @@
+A team of programmers is involved in reviewing a proposed design for a new utility class, 
+After some discussion, 
+they realize that the current design allows other classes to access methods in the utility 
+class that should be accessible only to methods within the utility class itself. 
+What design issue has the team discovered?
+
+	A. Tight coupling
+	B. Low cohesion
+	C. Weak encapsulation
+	D. Loose coupling

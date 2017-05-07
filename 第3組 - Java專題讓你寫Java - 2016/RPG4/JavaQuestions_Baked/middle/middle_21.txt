@@ -1,0 +1,17 @@
+Given:
+
+class One {
+    void foo() {
+    }
+}
+
+class Two extends One {
+    // insert method here
+}
+
+Which one method, inserted individually at line 14, won¡¦t correctly complete class Two?
+
+A. void foo(){/* more code here */}
+B. public void foo(){/* more code here */}
+C. private void foo(){/* more code here */}
+D. protected void foo(){/* more code here */}

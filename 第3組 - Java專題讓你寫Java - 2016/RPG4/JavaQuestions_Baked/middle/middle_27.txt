@@ -1,0 +1,17 @@
+Given:
+
+11. public void genNumbers(){
+12.     ArrayList numbers = new ArrayList();
+13.     for(int i=0; i<10; i++){
+14.         int value = i * ((int)Math.random());
+15.         Integer intObj = new Integer(value);
+16.         numbers.add(intObj);
+17.     }
+18.     System.out.println(numbers);
+19. }
+
+Which line of code marks the earliest point that an object referenced by intObj becomes a candidate for garbage collection?
+A. Line 16
+B. Line 17
+C. Line 18
+D. Line 19

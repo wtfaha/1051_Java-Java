@@ -1,0 +1,22 @@
+Given that the current directory is empty, and that the user has read and write permissions, and the following:
+
+11. import java.io.*;
+12. public class DOS{
+13.     public static void main(String[] args){
+14.         File dir = new File("dir");
+15.         dir.mkdir();
+16.         File f1 = new File(dir, "f1.txt");
+17.         try{
+18.             f1.createNewFile();
+19.         }catch(IOException e){;}
+20.         File newDir = new File("newDir");
+21.         dir.renameTo(newDir);
+22.     }
+23. }
+
+Which statement is true?
+
+A. Compilation fails. 
+B. The file system has a directory named newDir, containing a file f1.txt.
+C. The file system has a new empty directory named newDir. 
+D. The file system has a directory named dir, containing a file f1.txt. 

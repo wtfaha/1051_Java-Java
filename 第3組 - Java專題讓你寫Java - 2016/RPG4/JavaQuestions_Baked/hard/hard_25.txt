@@ -1,0 +1,28 @@
+abstract class A {
+    abstract void a1();
+
+    void a2() {
+    }
+}
+
+class B extends A {
+    void a1() {
+    }
+
+    void a2() {
+    }
+}
+
+class C extends B {
+    void c1() {
+    }
+}
+
+A x = new B();
+C y = new C();
+A z = new C();
+Which example is invalid of polymorphic method calls? (Choose four.)
+A. x.a2();
+B. z.c1();
+C. z.a1();
+D. x.a1();

@@ -1,0 +1,11 @@
+Which code fragment is most likely to cause a StackOverflowError? 
+A.    int[] x = {1, 2, 3, 4, 5};
+    for(int y=0; y<6; y++)
+    System.out.println(x[y]);
+B.    static int[] x = {7, 6, 54};
+    static{x[1] = 8; x[4] = 3;}
+C.    for(int y=10; y<10; y++)
+    doStuff(y);
+D.   void doOne(int x){doTwo(x);}
+    void doTwo(int y){doThree(y);}
+    void doThree(int z){doTwo(z);}

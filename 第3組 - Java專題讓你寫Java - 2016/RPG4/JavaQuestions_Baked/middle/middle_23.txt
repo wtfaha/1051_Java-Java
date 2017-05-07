@@ -1,0 +1,19 @@
+Given:
+
+1. public class A{
+2.     public void doit(){
+3. }
+4. public String doit(){
+5.     return "a";
+6. }
+7. public double doit(int x){
+8.     return 1.0;
+9. }
+10.}
+
+What is the result?
+
+A. An exception is thrown at runtime.
+B. Compilation fails because of an error in line 4.
+C. Compilation fails because of an error in line 7.
+D. Compilation succeeds and no runtime errors with class A occur.

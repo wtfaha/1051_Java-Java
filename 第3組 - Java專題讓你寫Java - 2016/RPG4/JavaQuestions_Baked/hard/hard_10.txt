@@ -1,0 +1,6 @@
+Which capability exists only in java.io.BufferedWriter?
+
+A. Closing an open stream. 
+B. Flushing an open stream. 
+C. Writing to an open stream. 
+D. Writing a line separator to an open stream.

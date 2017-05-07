@@ -1,0 +1,10 @@
+Given:
+
+    String[] elements = {"for", "tea", "too"};
+    String first = (elements.length>0) ? elements[0] : null;
+
+What is the result?
+	A. Compilation fails.
+	B. An exception is thrown at runtime.
+	C. The variable first is set to null.
+	D. The variable first is set to elements[0].
