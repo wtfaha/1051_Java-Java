@@ -1,0 +1,15 @@
+一、說明安裝的特別事項
+
+1. 匯入SetMap_code專案至eclipse
+2. 接著執行在src裡預設package裡的SetMap.java就可以了
+
+二、demo後新增或改善的部分
+
+無
+
+
+三、其他想特別說明的事項
+
+1.點擊SetMap_jar資料夾裡的SetMap.jar即可執行
+2.在SetMap_jar資料夾裡map的資料夾裡有放置十個.map檔，
+輸入map檔所在位置的路徑後，便可以直接讀取修改檔案。
